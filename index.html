@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <script src="./js/main.js" defer></script>
+  <title>Library App</title>
+</head>
+
+<body>
+
+  <header>
+    <nav></nav>
+  </header>
+
+  <main>
+    <section>
+      <h1></h1>
+      <article>
+        <h2></h2>
+        <p></p>
+      </article>
+      <article>
+        <h2></h2>
+        <p></p>
+      </article>
+    </section>
+    <button id="add-book">Add Book</button>
+    <dialog id="dialog">
+      <form id="book-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required />
+        <label for="author">Author:</label>
+        <input type="text" id="author" required />
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher" required />
+        <label for="year">Year:</label>
+        <input type="text" inputmode="numeric" pattern="[0-9]{4}" maxlength=4 id="year" required />
+        <section class="form-button">
+          <input type="submit" id="close" value="Close" formnovalidate />
+          <input type="submit" id="submit" value="Submit" />
+        </section>
+      </form>
+    </dialog>
+    <section class="book-shelf">
+
+    </section>
+  </main>
+
+  <footer></footer>
+
+</body>
+
+</html>
