@@ -1,0 +1,31 @@
+/project-root
+│
+├── /assets
+│   ├── /fonts
+│   ├── /images
+│   ├── /videos
+│   └── /icons
+│
+├── /css
+│   ├── fonts.css
+│   ├── styles.css
+│   └── [other CSS files]
+│
+├── /js
+│   ├── main.js
+│   └── [other JS files]
+│
+├── /components
+│   └── [Reusable UI components]
+│
+├── /pages
+│   └── [HTML or template files]
+│
+├── /api
+│   └── [API related files]
+│
+├── /utils
+│   └── [Utility scripts]
+│
+├── index.html
+└── [other root files]
